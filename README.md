@@ -67,7 +67,8 @@ To run the tool locally, follow these steps:
 
 Simply enter a search term like "LLM" or "data science" into the search bar. The tool will display a list of the most relevant courses based on your query, providing course titles, descriptions, and direct links to the course pages.
 
-![Demo Image](https://via.placeholder.com/600x300?text=Smart+Search+Demo)
+![Demo Image](DataScience.png)
+![Demo Image](LLM.png)
 
 ## 💡 Example Queries
 
