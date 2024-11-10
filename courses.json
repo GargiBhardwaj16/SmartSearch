@@ -1,12 +1,107 @@
 [
     {
-        "title": "Framework to Choose the Right LLM for your Business",
+        "title": "LLM: Framework to Choose the Right LLM for your Business",
         "description": "This course provides a comprehensive framework for selecting the right LLM for your business. Learn to evaluate LLMs based on accuracy, cost, scalability, and more, while exploring real-world applications to make informed, strategic AI decisions.",
         "link": "https://courses.analyticsvidhya.com/courses/choosing-the-right-LLM-for-your-business"
     },
     {
-        "title": "Improving Real World RAG Systems: Key Challenges & Practical Solutions",
-        "description": "Description of Course 2.",
+        "title": "LLM & RAG: Improving Real World RAG Systems: Key Challenges & Practical Solutions",
+        "description": "",
         "link": "https://courses.analyticsvidhya.com/courses/improving-real-world-rag-systems-key-challenges"
-    }
+    },
+    {
+      "title":"LLM: Building Smarter LLMs with Mamba and State Space Model",
+      "description":"Master Mamba's selective state space model for LLMs.Discover key components like the Mamba block, optimizing sequence modeling with efficient, scalable training and inference, surpassing traditional Transformers.",
+      "link":"https://courses.analyticsvidhya.com/courses/building-smarter-llms-with-mamba-and-state-space-model"
+    },
+    {
+      "title":"Generative AI",
+      "description":"Generative AI - A Way of Life - Free Course",
+      "link":"https://courses.analyticsvidhya.com/courses/genai-a-way-of-life"
+    },
+    {
+      "title":"LLM Basics",
+      "description":"Getting Started with Large Language Models",
+      "link":"https://courses.analyticsvidhya.com/courses/getting-started-with-llms"
+    },
+   {
+     "title":"Building LLM Applications using Prompt Engineering - Free Course",
+     "description":"This free course offers a comprehensive guide on building LLM applications, mastering prompt engineering, implementing best practices, and developing chatbots using enterprise data using advanced techniques like few-shot or one-shot prompting",
+     "link":"https://courses.analyticsvidhya.com/courses/building-llm-applications-using-prompt-engineering-free"
+   },
+   {
+     "title":"RAG",
+     "description":"Building Your first RAG System using LlamaIndex",
+     "link":"https://courses.analyticsvidhya.com/courses/building-first-rag-systems-using-llamaindex"
+   },
+   {
+     "title":"Machine Learning",
+     "description":"Artificial Intelligence (AI) and Machine Learning (ML) are changing the world around us. From functions to industries, AI and ML are disrupting how we work and how we function. Get to know all about the different facets of AI and ML in this course.",
+     "link":"https://courses.analyticsvidhya.com/courses/introduction-to-ai-ml"
+   },
+   {
+     "title":"Stability.AI",
+     "description":"Explore Stability.AI with this free course providing hands-on experience. Learn to deploy SD WebUI, use Automatic WebUI on RunPod GPU environments, and master installation, setup, generation, and customization of SD.",
+     "link":"https://courses.analyticsvidhya.com/courses/exploring-stability-ai"
+   },
+   {
+     "title":"Python",
+     "description":"Python Basics",
+     "link":"https://courses.analyticsvidhya.com/courses/introduction-to-data-science"
+   },
+   {
+     "title":"Machine Learning Certification",
+     "description":"In this free machine learning certification course, you will learn Python, the basics of machine learning, how to build machine learning models, and feature engineering techniques to improve the performance of your machine learning models.",
+     "link":"https://courses.analyticsvidhya.com/courses/Machine-Learning-Certification-Course-for-Beginners"
+   },
+   {
+     "title":"Deep Learning",
+     "description":"Kickstarting your career in the field of Deep Learning can be made easy with the right guide. This course will serve as a learning path to help beginners navigate through the complex terrain of Deep Learning.",
+     "link":"https://courses.analyticsvidhya.com/courses/The%20Working%20of%20Neural%20Networks"
+   },
+   {
+     "title":"NLP",
+     "description":"Explore the essentials of NLP with our comprehensive course! Learn text classification, NLP models with PyTorch, and real-world applications. Perfect for beginners and professionals alike, dive into AI-driven text analysis and hands-on projects.",
+     "link":"https://courses.analyticsvidhya.com/courses/free-building-textclassification-natural-language-processing"
+   },
+  {
+     "title":"Business Analytics",
+     "description":"Business analytics is thriving – and so is its role in forward-thinking organizations around the world. The demand for business analytics professionals is growing multifold - and now is the time to start working towards your desired career.",
+     "link":"https://courses.analyticsvidhya.com/courses/introduction-to-analytics"
+   },
+   {
+     "title":"Excel Learning",
+     "description":"Microsoft Excel is still the tool of choice in the industry when it comes to performing data analysis, thanks to its incredible depth and array of formulas and functions. This course covers a wide range of Excel formulas, including LookUp Functions!",
+     "link":"https://courses.analyticsvidhya.com/courses/microsoft-excel-formulas-functions"
+   },
+   {
+     "title":"Tableau",
+     "description":"Tableau is the tool of choice for business intelligence, analytics and data visualization experts. Learn how to use Tableau, the different features of Tableau, and start building impactful visualization using this Tableau tutorial!",
+     "link":"https://courses.analyticsvidhya.com/courses/tableau-for-beginners"
+   },
+   {
+     "title":"Web Scraping",
+     "description":"What is web scraping? Why is web scraping a must-know skill? How can you perform web scraping in Python? This course will cover all these aspects of web scraping and showcase how to perform web scraping using BeautifulSoup and Scrapy.",
+     "link":"https://courses.analyticsvidhya.com/courses/introduction-to-web-scraping"
+   },
+  {
+     "title":"Sentiment Analysis",
+     "description":"What is sentiment analysis? Why is sentiment analysis so popular in data science? And how can you perform sentiment analysis? Find the answers to all these questions in this free course on Sentiment Analysis using Python!",
+     "link":"https://courses.analyticsvidhya.com/courses/twitter-sentiment-analysis"
+   },
+   {
+     "title":"Python Project",
+     "description":"This course is aimed for people getting started into Data Science and Machine Learning while working on a real life practical problem.",
+     "link":"https://courses.analyticsvidhya.com/courses/loan-prediction-practice-problem-using-python"
+   },
+   {
+     "title":"R Project",
+     "description":"This course is aimed for people getting started into Data Science and Machine Learning while solving the Big Mart Sales Prediction problem.",
+     "link":"https://courses.analyticsvidhya.com/courses/big-mart-sales-prediction-using-r"
+   },
+   {
+     "title":"Time Series Analysis",
+     "description":"Learn time series analysis and build your first time series forecasting model using ARIMA, Holt’s Winter and other time series forecasting methods in Python for a real-life industry use case",
+     "link":"https://courses.analyticsvidhya.com/courses/creating-time-series-forecast-using-python"
+   }
 ]
