@@ -16,15 +16,50 @@ course_descriptions = [course["description"] for course in courses]
 course_embeddings = model.encode(course_descriptions, convert_to_tensor=True)
 
 # Function to perform smart search
-def search_courses(query):
+#def search_courses(query):
     # Generate embedding for the search query
-    query_embedding = model.encode(query, convert_to_tensor=True)
+    #query_embedding = model.encode(query, convert_to_tensor=True)
 
     # Compute cosine similarities between the query and all course descriptions
-    similarities = util.pytorch_cos_sim(query_embedding, course_embeddings)[0]
+    #similarities = util.pytorch_cos_sim(query_embedding, course_embeddings)[0]
 
     # Find the top 5 most similar courses
-    top_results = np.argsort(similarities, descending=True)[:5]
+    #top_results = np.argsort(similarities, descending=True)[:5]
+    #top_results = np.argsort(-similarities)[:5]
+
+    # Prepare output
+    #results = []
+    #for idx in top_results:
+    #    course = courses[idx]
+       # results.append({
+            #"Title": course["title"],
+            #"Description": course["description"],
+            #"Link": course["link"]
+        #})
+    #return results
+def search_courses(query):
+    if not query.strip():
+        return "Please enter a search query."
+    
+    # Convert query and titles to lowercase for case-insensitive matching
+    query_lower = query.lower()
+    title_matches = [course for course in courses if query_lower in course["title"].lower()]
+
+    # If there are title matches, display those as results
+    if title_matches:
+        results = []
+        for course in title_matches[:5]:  # Limit to top 5 title matches
+            results.append({
+                "Title": course["title"],
+                "Description": course["description"],
+                "Link": course["link"]
+            })
+        return results
+
+    # Fallback to semantic search if no title matches are found
+    query_embedding = model.encode(query, convert_to_tensor=True)
+    similarities = util.pytorch_cos_sim(query_embedding, course_embeddings)[0]
+    top_results = np.argsort(-similarities)[:5]  # Get top 5 most similar courses
 
     # Prepare output
     results = []
